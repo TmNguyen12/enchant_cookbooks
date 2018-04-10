@@ -7,8 +7,8 @@
   license: "Apache 2.0",
   platforms: { },
   dependencies: {
-  ruby-ng: ">= 0.0.0",
-  nodejs: ">= 0.0.0",
+  ruby-ng: "2.3.4",
+  nodejs: "8.9.0",
   postgres: ">= 0.0.0",
   nginx: ">= 0.0.0",
   unicorn: ">= 0.0.0"

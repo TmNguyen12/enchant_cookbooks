@@ -3,7 +3,7 @@ default['nodejs']['version'] = "8.9.0"
 default['nodejs']['npm']['version'] = "5.5.1"
 default['nginx']['default_site_enabled'] = false
 
-default[:enchant][:git_repository] = "https://github.com/tmnguyen12/enchant/"
+default[:enchant][:git_repository] = "https://github.com/TmNguyen12/Enchant"
 default[:enchant][:git_revision] = "master"
 default[:enchant][:path] = "/opt/enchant"
 
