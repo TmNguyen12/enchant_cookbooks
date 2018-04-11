@@ -10,6 +10,7 @@ include_recipe "unicorn"
 apt_package 'zlib1g-dev'
 apt_package 'libpq-dev'
 
+
 template "enchant_service" do
     path "/etc/init.d/enchant"
     source "enchant_service.erb"
