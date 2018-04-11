@@ -1,4 +1,4 @@
-default['ruby-ng']['ruby_version'] = "2.3"
+default['ruby-ng']['ruby_version'] = "2.4"
 default['nodejs']['version'] = "8.9.0"
 default['nodejs']['npm']['version'] = "5.5.1"
 default['nginx']['default_site_enabled'] = false
