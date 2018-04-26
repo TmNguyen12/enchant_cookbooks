@@ -15,11 +15,10 @@ default[:enchant][:environment] = {
   "DATABASE_URL": node[:enchant][:database_url],
   "RAILS_ENV": node[:enchant][:rails_env],
   "RAILS_LOG_TO_STDOUT": node[:enchant][:log_to_stdout],
-  "s3_access_key_id", node[:enchant][:s3_access_key_id],
+  "s3_access_key_id": node[:enchant][:s3_access_key_id],
   "s3_region": node[:enchant][:s3_region],
   "s3_bucket": node[:enchant][:s3_bucket],
   "s3_secret_access_key_id": node[:enchant][:s3_secret_access_key_id]
 }
 
 default[:enchant][:start_cmd] = "unicorn -E production -c /opt/unicorn.rb"
-
