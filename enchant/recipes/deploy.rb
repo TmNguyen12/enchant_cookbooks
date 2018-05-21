@@ -21,7 +21,7 @@ end
 
 execute "Install Gems" do
   cwd node[:enchant][:path]
-  command "bundle install"
+  command "sudo bundle install"
   user "ubuntu"
   # group new_resource.group
   environment ({"HOME"=>"/home/ubuntu"})
